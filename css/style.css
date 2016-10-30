@@ -1,10 +1,17 @@
 html, html a {
     -webkit-font-smoothing: antialiased !important;
 }
-.p .h {
+p {
   font: "ff-tisa-web-pro", serif;
-
+  font-weight: 400;
+  line-height: 1.6;
 }
+h3 {
+  display: block;
+  margin: 1em;
+  
+}
+
 .navbar {
   height: 75px;
   margin: 0 auto;
@@ -121,6 +128,13 @@ h4 {
     width: 100%;
     min-width: 0;
 
+}
+.parabase {
+  text-align: center;
+  font-size: 16px;
+  text-transform: none;
+  font-style: normal;
+  color: black;
 }
 
 .courseicons {
