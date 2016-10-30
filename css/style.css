@@ -1,5 +1,9 @@
+html, html a {
+    -webkit-font-smoothing: antialiased !important;
+}
 .p .h {
   font: "ff-tisa-web-pro", serif;
+
 }
 .navbar {
   height: 75px;
@@ -33,6 +37,11 @@ h4 {
   font: normal;
   color:#39474e;
 
+}
+ .secondcont {
+  width: 1438px;
+  /*height: 455px;*/
+  height: 550px;
 }
 
 .discoverour {
@@ -99,8 +108,18 @@ h4 {
     font-size: 16px;
     padding-left: 8px;
     outline: none;
-
-
+}
+.half-width {
+  width: 50%;
+}
+.emailfactbutton {
+  background-color: teal;
+  height: 49px;
+  width: 309px;
+  font-style: normal;
+  font-size: 17px;
+    width: 100%;
+    min-width: 0;
 
 }
 
@@ -154,6 +173,9 @@ background-color: #39474e;
   font-size: 70px;
 }
 .contactinfo {
+  h4: strong;normal;
+  h3: strong;italic;
+  p:18px;
 
 }
 
@@ -178,5 +200,45 @@ background-color: #39474e;
 }
 .footer {
   background-color: #39474e;
-  height: 100px;
+  height: 347px;
+  font-size: 14px;
+  padding-top: 15px;
+
+}
+.courses {
+
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+.list-a .list-b {
+  font-style: normal;
+  font-weight:lighter;
+  color: #9ca7aa;
+  color: #CCCCCC;
+  text-shadow: 0 1px 0 #999999, 0 2px 0 #888888,
+           0 3px 0 #777777, 0 4px 0 #666666,
+           0 5px 0 #555555, 0 6px 0 #444444,
+           0 7px 0 #333333, 0 8px 7px rgba(0, 0, 0, 0.4),
+           0 9px 10px rgba(0, 0, 0, 0.2);
+  /*Lexi-I think the lighter font weight look better here.then if found this interesting text shadow deal*/
+
+}
+.all-rights {
+  float: right;
+  text-align: right;
+}
+.emboss {
+
+    color: #ECECF6;
+    /*text-shadow: -1px -1px 1px #FFFFFF, 1px 1px 1px #000000;*/
+    .threed {
+    color: #CCCCCC;
+    text-shadow: 0 1px 0 #999999, 0 2px 0 #888888,
+             0 3px 0 #777777, 0 4px 0 #666666,
+             0 5px 0 #555555, 0 6px 0 #444444,
+             0 7px 0 #333333, 0 8px 7px rgba(0, 0, 0, 0.4),
+             0 9px 10px rgba(0, 0, 0, 0.2);
+}
 }
