@@ -24,7 +24,42 @@
 
 
     <div class="container-fluid">
-      <nav class="navbar navbar-inverse">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">WebSiteName</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Page 1-1</a></li>
+                  <li><a href="#">Page 1-2</a></li>
+                  <li><a href="#">Page 1-3</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Courses</a></li>
+              <li><a href="#">Corporate Training</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="glyphicon glyphicon-user"></span>About</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Blog</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Contact</a></li>
+          <div class="getstarted"><li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Get Started</a></li>
+          </div>
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+      <!-- <nav class="navbar navbar-inverse">
 
       <div class="navbar-header">
 
@@ -43,7 +78,7 @@
           <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
         </ul>
 
-    </nav>
+    </nav> -->
     <div class="hero">
   </div>
   <!-- the end of the Hero image -->
@@ -75,18 +110,17 @@
   <div class="container secondcont">
     <div class="row paragragh and infobox">
     <div class="col-md-8 sellingpoints">
-      <h3>12-week code school</h3>
+      <div class="infotitle"<h3>12-week code school</h3></div>
       <p>Go from zero to job ready in an immersive environment. Learn the latest skills from
         industry professionals and connect with employers through our Career Support program.</p>
-        <h3>Free crash courses</h3>
+      <div class="infotitle"<h3>Free crash courses</h3></div>
         <p>Our free, one-night crash courses are the      perfect way to get your hands dirty with a fun
         project and gain the confidence to explore the world of programming.</p>
-      <h3>Corporate Training</h3>
+      <div class="infotitle"<h3>Corporate training</h3></div>
       <p>If you already lead or work on a development team, our recruiting, onboarding, reskilling and upskilling programs provide proven pathways to grow your team.</p>
     </div>
-
-<!-- the three paragraphs on the left -->
-<!-- the infobox large -->
+<!-- the three paragraphs on the left ending -->
+<!-- the infobox large  on the right-->
   <div class="infowhole">
     <div class="col-md-4 infoboxlarge-top">
       <p>
@@ -96,7 +130,7 @@
       "Want a quick overview explaining what we're all about? We'll email you our 2016 fact sheet, complete with a snapshot of our locations, courses, job data and more."
         </small></p>
     <div class="col-md-4 infoboxlarge-fill">
-      <div class="half-width">
+      <!-- <div class="half-width">
       <p>First Name</p>
     </div>
       <div class="half-width">
@@ -107,8 +141,20 @@
       <p>phone number</p>
       </div>
       <div class="emailfactbutton">
-      <h3>Email Me the fact sheet</h3>
-    </div>
+      <h5>Email Me the fact sheet</h5>
+    </div> -->
+    <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name" />
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="user_email" />
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="user_message"></textarea>
+
+    <button type="submit">Send</button>
+</form>
   </div>
 </div>
   </div>
@@ -119,28 +165,31 @@
 <!-- beginning of third container -->
  <div class="container-fluid discover">
    <div class="row discoverour mission">
-   <div class="header">
+   <div class="header fourtypes">
      <h4>Discover our courses</h4>
    </div>
    <div class="parabase text"><p>We offer learning programs that cover the core components of web development. Each course<br>is designed to help people reach their learning and career goals.</p></div>
  </div>
  <div class="row courses">
  <div class="col-md-3 courseicons fe">
-   <img src="images/frontendengineering.png"  alt="front end tiyicon">
+   <div class="tiyicons"><img src="images/frontendengineering.png"  alt="front end tiyicon"></div>
    <p>Front End<br>Engineering</p>
  </div>
  <div class="col-md-3 courseicons be">
-   <img src="images/backendengineering.png"  alt="back end tiyicon">
+   <div class="tiyicons">
+   <img src="images/backendengineering.png"  alt="back end tiyicon"></div>
    <p>Back End<br>Engineering</p>
  </div>
 
  <div class="col-md-3 courseicons me">
-   <img src="images/interfacedesign.png"  alt="id tiyicon">
+   <div class="tiyicons"><img src="images/interfacedesign.png"  alt="id tiyicon">
+   </div>
    <p>Mobile<br>Engineering</p>
  </div>
 
  <div class="col-md-3 courseicons id">
-   <img src="images/mobileengineering.png"  alt="mobile eng tiyicon">
+   <div class="tiyicons"><img src="images/mobileengineering.png"  alt="mobile eng tiyicon">
+   </div>
    <p>Interface<br>Design</p>
  </div>
 
@@ -149,9 +198,11 @@
 <!-- end of third container -->
 <!-- beginning of fourth and last container  -->
 
-<div class="container employers">
-  <h1>Employers</h1>
-  <p>We work with amazing companies around the world, connecting them with our graduates,<br>training their developers and partnering with them to impact the communities around each of our campuses.</p>
+<div class="container-fluid employers">
+  <div class="dataemployers">
+  <div class="hemployers"><h1>Employers</h1></div>
+  <div class="pemployers"><p>We work with amazing companies around the world, connecting them with our graduates,<br>training their developers and partnering with them to impact the communities around each of our campuses.</p></div>
+</div>
 <div class="row employernames">
     <div class="col-lg-4 employer logos1">
       <img src="images/ibm.png" alt="ibm logo">
@@ -191,26 +242,28 @@
 <div class="container-fluid">
 <div class="row contactinfo">
   <div class="col-lg-6">
-    <h4>QUESTIONS?</h4>
-    <h3>Let's talk.</h3>
-    <p>Whether you're thinking about starting a new career, interested in learning more about our programs for individuals or businesses, or just want to chat, we're here and we'd love to connect with you. Shoot us an email or your phone number and we'll get back to you soon, or you can chat with us right away using the chat icon below.</p>
+    <div class="lowerquestions"><h4>QUESTIONS?</h4></div>
+    <div class="lowerletstalk"><h3>Let's talk.</h3></div>
+    <div class="lowerdata"><p>Whether you're thinking about starting a new<br>career, interested in learning more about our<br>programs for individuals or businesses, or just<br>want to chat, we're here and we'd love to<br>connect with you. Shoot us an email or your phone<br>number and we'll get back to you soon,<br>or you can chat with us right away using the<br>chat icon below.</p></div>
+  </div>
   <div class="col-lg-6 twocontactinfo">
 
-
-
-
+<p>;ijojiiojiosSAPVINGS ASPOIIUSSPACE poijojoiji;</p>
 
   </div>
-
 </div>
 </div>
+<!-- beginning of footer -->
 
-
+<div class="container-fluid">
 <div class="row footer">
-  <div class="col-sm-2 innerlinks start-courses">
-    <div class="header courses"><ul><h5>Courses</h5></ul>
-    </div>
-    <div class="list-a"><ul>Back-End Engineering</ul>
+  <div class="col-lg-2 innerlinks start-courses">
+
+    <div class="list-a">
+      <div class="courses">
+        <ul>Courses</ul></div>
+        <div class="list-a">
+          <ul>Back-End Engineering</ul>
     <ul>Design</ul>
     <ul>Front-End Engineering</ul>
     <ul>Mobile Engineering</ul>
@@ -219,38 +272,62 @@
           <ul>Tuition</ul>
           <ul>FAQs</ul>
         </div>
-
       </div>
-      <div class="col-sm-2 innerlinks start-courses">
-        <div class="header courses">
-          <ul><h5>About</h5></ul>
-        </div>
+    </div>
+
+      <div class="col-lg-2 innerlinks start-courses">
         <div class="list-b">
-          <ul><h5>About</h5></ul>
-          <ul>Our Story</ul>
+          <div class="courses">
+            <ul>About</ul>
+          </div>
+          <div class="list-b"><ul>Our Story</ul>
           <ul>History</ul>
           <ul>The Iron Yard Team</ul>
-          <ul>Jobs at the Iron Yard</ul>
+          <ul>Jobs at the Iron Yard</ul></div>
+        </div>
         </div>
 
-          </div>
-          <div class="col-sm-2 innerlinks start-courses">
+
+
+          <div class="col-lg-2 innerlinks start-courses">
             <div class="header courses">
-              <ul><h5>Corporate Training</h5></ul>
-              <ul><h5>Stories</h5></ul>
-              <ul><h5>Blog</h5></ul>
-              <ul><h5>Press/News</h5></ul>
-              <ul><h5>Contact</h5></ul>
+              <ul>Corporate Training</ul>
+              <ul>Stories</ul>
+              <ul>Blog</ul>
+              <ul>Press/News</ul>
+              <ul>Contact</ul>
             </div>
               </div>
+
+
+
+          <div class="col-lg-2 innerlinks start-courses">
+            <div class="header courses">
+              <ul>Corporate Training</ul>
+              <ul>Stories</ul>
+              <ul>Blog</ul>
+              <!-- says press/news is an issue -->
+              <ul>Press/News</ul>
+              <ul>Contact</ul>
+            </div>
+              </div>
+
 
     <div class="'col-sm-2 all-rights">
       <img src="images/iron-yard-logo.svg" alt="iron yard logo">
       <div class="emboss"><p>©2016 Iron Yard. All Rights Reserved<br>
         Privacy Policy |  Terms of Use</p></div>
       </div>
-      <div class="fixed=smile"<img src="images/positionfixedicon.png" alt="the smiling message box">
-    </div>
+      <div class="fixed smile">
+         <img src="images/positionfixedicon.png" alt="the smiling message box"></img>
+       </div>
+          </div>
+     </div>
+
+
+
+         <!-- need to fix position for the smiley
+    </div> -->
 
 
 
