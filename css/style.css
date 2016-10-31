@@ -90,14 +90,16 @@ h4 {
   padding-right: 5px;}
 
 .sellingpoints {
-  line-height: 36px;
+    line-height: 36px;
     font-weight: bold;
     font-style: italic;
     margin: 15px 0;
     font-size: 26px;
     color: #727d84;
+    text-align: left;
 }
 .infotitile {
+  text-align: left;
   font-size: 40px;
   color: #2f3c44;
   line-height: 36px;
@@ -113,25 +115,6 @@ h4 {
 
 
 .infowhole {
-    position: relative;
-    border-radius: 10px;
-    margin: 0 auto;
-    max-height: 295px;
-    background-color: #EBEBEB;
-    width: 100%;
-    border: none;
-    border-bottom: 2px solid #d2d2d2;
-    /*margin-bottom: 10px;*/
-    /*height: 50px;
-    font-style: italic;*/
-    /*font-size: 16px;*/
-    /*padding-left: 8px;*/
-    /*outline: none;*/
-/*}*/
-
-
-}
-.infowhole {
   border-radius: 20px;
   border-style: groove;
   display:block;
@@ -144,15 +127,15 @@ h4 {
 
   /*border-style: groove;
   display:block;*/
-  margin-top: 1em;
+  /*margin-top: 1em;
   color: #669db8;
-  background-color: green;
+  background-color: green;*/
   /*color:#eeeeee;*/
 }
 
 .half-width {
   width: 48%;
-  align-content: space-between; 4px;
+  /*align-content: space-between; 4px;*/
 }
 .infoboxlarge-fill {
   text-align: left;
@@ -196,7 +179,7 @@ h4 {
 .courses {
   font-size: 18px;
   font-weight: 700;
-  text-rendering: optimizeLegibility;
+  /*text-rendering: optimizeLegibility;*/
   line-height: 1.6;
 }
 
@@ -205,7 +188,7 @@ h4 {
   text-align: center;
   font-size: 18px;
   font-weight: 700;
-  text-rendering: optimizeLegibility;
+  /*text-rendering: optimizeLegibility;*/
   line-height: 1.6;
 }
 /*this causes alignment issues*/
@@ -277,8 +260,8 @@ background-color: #39474e;
 }
 
 .contactinfo {
-  h4: strong;normal;
-  h3: strong;italic;
+  /*h4: strong;normal;
+  h3: strong;italic;*/
   p:18px;
 
 }
@@ -291,7 +274,7 @@ background-color: #39474e;
   color: #838f95;
 }
 .lowerletstalk {
-  text-align-left:
+  /*text-align-left:*/
   font-size: 18px;
   font-weight: bold;
   line-height: 36px;
@@ -300,7 +283,6 @@ background-color: #39474e;
 
 }
 .lowerdata {
-  text-align-left:
   font-size: 18px;
   font-weight: bold;
   line-height: normal;
@@ -315,23 +297,7 @@ background-color: #39474e;
 
 .employernames {
   text-align: center;
-  /*width: 342px;
-  height: 110px;*/
-}
 
-/*.employerlogos
-{
-  /*width: 50%;*/
-/*max-width: 230px;*/
-
-
-/*.smcontactinfo {
-
-}
-.smcontactinfoleft{
-  border-radius: 10px;
-  border-style: groove;
-}*/
 .footer {
   background-color: #39474e;
   height: 347px;
