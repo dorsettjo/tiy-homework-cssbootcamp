@@ -11,16 +11,51 @@ h3 {
   margin: 1em;
 
 }
+.menu {
+  padding: 30px;
+  /*border-bottom: 1px solid white;*/
+  overflow: hidden;
+  background-size: cover;
+  margin: 0 auto;
+}
+.navbar-collapse {
+  margin: 0 auto;
+}
+
+li {
+  display: inline;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+.second-nav a {
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+.main-nav {
+  float: left;
+}
+.second-nav {
+  float: right;
+}
+
+
 
 
 .navbar {
   height: 75px;
   margin: 0 auto;
   background-color: #39474e;
+  background-size: cover;
   border-radius: 0px;
 }
 .navbar-default .navbar-nav.navbar-right>li>a{
 color: #989ba0;
+margin-right: 0 auto;
 }
 
 .navbar-default .navbar-nav.navbar-right>li>a:hover{
@@ -44,18 +79,24 @@ color: blue;
   /*background-color: teal;*/
 
 }
+.container-fluid {
+  height: 20px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
 
-/*li, a {
-  padding: 10px;
-  margin-left: 10px;
-}*/
+}
+
 
 .hero {
   clear:both;
   background-image: url("../images/amy-home-web2.jpg");
   height: 500px;
   background-size: cover;
+  background-position: center;
 }
+
+
 
 h4 {
   color: #838f95;
@@ -71,11 +112,11 @@ h4 {
   color:#39474e;
 
 }
- .secondcont {
+ /*.secondcont {*/
   /*width: 1438px;*/
   /*height: 455px;*/
   /*height: 550px;*/
-}
+/*}*/
 
 .discover {
   color: #838f95;
@@ -110,28 +151,7 @@ h4 {
 }
 
 
-  /*margin-bottom:20px;*/
-  /*not sure if this is necc since we are not doing the what our students say.*
 
-
-.infowhole {
-  border-radius: 20px;
-  border-style: groove;
-  display:block;
-  margin-top: 0em;
-  color: gray;
-  background-color: green;
-}
-
-.infoboxlarge-top {
-
-  /*border-style: groove;
-  display:block;*/
-  /*margin-top: 1em;
-  color: #669db8;
-  background-color: green;*/
-  /*color:#eeeeee;*/
-}
 
 .half-width {
   width: 48%;
