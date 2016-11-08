@@ -22,64 +22,37 @@
 
   <body>
 
-
-    <div class="container-fluid">
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <!-- <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"><img src="images/iron-yard-logo.svg" alt="iron yard logo"></a>
-          </div> -->
-          <div class="collapse navbar-collapse" id="myNavbar">
-             <div class="menu">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
-
-              </li>
-              <li><a href="#">Campuses</a></li>
-              <li><a href="#">Courses</a></li>
-              <li><a href="#">Corporate Training</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#"><span class="glyphicon glyphicon-user"></span>About</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Blog</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Contact</a></li>
-          <!-- <div class="getstarted"> -->
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Get Started</a></li>
-          <!-- </div> -->
-          </ul>
-        </menu>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img class="tiylogo" src="images/iron-yard-logo.svg" alt="iron yard logo">
+          </a>
         </div>
-      </div>
-      </nav>
-
-    </div>
-      <!-- <nav class="navbar navbar-inverse">
-
-      <div class="navbar-header">
-
-      </div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Campuses</a></li>
-        <li><a href="#">Courses</a></li>
-        <li><a href="#">Corporate Training</a></li>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Campuses</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Corporate</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a class="getstarted" href="#">Get Started</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-        </ul>
 
-    </nav> -->
+
+
     <div class="hero">
   </div>
   <!-- the end of the Hero image -->
@@ -145,18 +118,12 @@
       <h5>Email Me the fact sheet</h5>
     </div> -->
     <form>
-    <label for="name">First Name</label>
-    <label for="name">Last Name</label>
-    <input type="text" id="name" name="user_name" />
+    <input type="text" id="firstname" name="user_name" placeholder="First Name" />
+    <input type="text" id="lastname" name="user_name" placeholder="Last Name" />
 
-    <label for="phonenumber">Phone Number</label>
-    <input type="phonenumber" id="phonenumber" name="phone_number" />
-
-    <label for="email">E-mail Address</label>
-    <input type="email" id="email" name="user_email" />
-
-    <label for="message">Email me the fact sheet:</label>
-    <textarea id="message" name="user_message"></textarea>
+    <input type="phonenumber" id="phonenumber" name="phone_number" placeholder="Phone" />
+    <input type="email" placeholder="email" id="email" name="user_email" />
+        <textarea id="message"  name="user_message" placeholder="Enter a message"></textarea>
 
     <button type="submit">Send</button>
 </form>
@@ -308,23 +275,20 @@
 
           <div class="col-lg-2 innerlinks start-courses">
             <div class="bold courses">
-              <ul>Corporate Training</ul>
-              <ul>Stories</ul>
-              <ul>Blog</ul>
-              <!-- says press/news is an issue -->
-              <ul>Press/News</ul>
-              <ul>Contact</ul>
+
             </div>
               </div>
 
 
-    <div class="'col-sm-2 all-rights">
+    <div class="col-sm-2 all-rights">
       <img src="images/iron-yard-logo.svg" alt="iron yard logo">
       <div class="emboss"><p>©2016 Iron Yard. All Rights Reserved<br>
         Privacy Policy |  Terms of Use</p></div>
       </div>
+
+
       <div class="fixed smile">
-         <img src="images/positionfixedicon.png" alt="the smiling message box"></img>
+         <a href="#"><img src="images/positionfixedicon.png" alt="the smiling message box"></img></a>
        </div>
           </div>
      </div>

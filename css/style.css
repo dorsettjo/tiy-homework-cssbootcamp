@@ -43,7 +43,7 @@ a {
   float: right;
 }
 
-
+/*Where is my Iron Yard Icon;;;;;;;*/
 
 
 .navbar {
@@ -72,21 +72,39 @@ color: blue;
 }
 
 .getstarted {
+    background-color: #6fbbb7;
+    color:white;
+    border-radius: 5px;
+  }
 
-  font-weight: bold;
-  color: white;
-  text-transform:
-  /*background-color: teal;*/
-
+  .navbar-inverse .navbar-nav>li>a {
+    color: white;
 }
+
 .container-fluid {
-  height: 20px;
   background-size: cover;
   background-position: center;
   margin: 0 auto;
 
 }
+form #firstname {
+  display: inline;
+  width: 40%;
+}
 
+form #lastname {
+  display: inline;
+  width: 40%;
+}
+
+.tiylogo {
+  height: 50px;
+}
+
+.navbar{
+  padding-left: 25%;
+  padding-right: 15%;
+}
 
 .hero {
   clear:both;
@@ -235,6 +253,26 @@ h4 {
   font-weight: 700;
 }
 
+form {
+  width: 500px;
+  /*background-color: #EBEBEB;*/
+  max-height: 295px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.infoboxlarge-top {
+  Width: 30%;
+  background-color:#EBEBEB;
+  height: 500px;
+  border-radius: 10px;
+}
+.fixed {
+  position: fixed;
+  right:0%;
+  bottom: 10%;
+}
+
 .sponsors {
 background-color: #eeeeee;
 }
@@ -348,18 +386,4 @@ background-color: #39474e;
 .all-rights {
   float: right;
   text-align: right;
-}
-.emboss {
-  clear: both;
-
-    color: #ECECF6;
-    /*text-shadow: -1px -1px 1px #FFFFFF, 1px 1px 1px #000000;*/
-    .threed {
-    color: #CCCCCC;
-    text-shadow: 0 1px 0 #999999, 0 2px 0 #888888,
-             0 3px 0 #777777, 0 4px 0 #666666,
-             0 5px 0 #555555, 0 6px 0 #444444,
-             0 7px 0 #333333, 0 8px 7px rgba(0, 0, 0, 0.4),
-             0 9px 10px rgba(0, 0, 0, 0.2);
-}
 }
